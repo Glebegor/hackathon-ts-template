@@ -1,6 +1,6 @@
 import * as Joi from 'joi';
 import { ConfigFactory } from '@nestjs/config';
-import { AppConfig } from 'src/domain/entities/config.entity';
+import { AppConfig } from 'src/common/entities/config.entity';
 import * as dotenv from 'dotenv';
 import path from 'path';
 
