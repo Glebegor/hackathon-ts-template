@@ -1,0 +1,17 @@
+{
+    "type": "dev",
+    "server": {
+        "port": 3000,
+        "host": "localhost"
+    },
+    "services": {
+        "redis": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "vault": {
+            "host": "localhost",
+            "port": 8200
+        }
+    }
+}
